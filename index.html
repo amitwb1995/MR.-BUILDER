@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MR. BUILDER</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-gray-900 py-4">
+      <div class="container mx-auto flex justify-between items-center px-4">
+        <!-- Logo -->
+        <div class="text-white font-semibold text-xl">MR. BUILDER</div>
+        <!-- Navigation Links -->
+        <div class="flex items-center space-x-6">
+          <a
+            href="#home"
+            class="text-gray-300 hover:text-white transition duration-300 ease-in-out py-2 px-3 rounded-lg hover:bg-gray-800"
+            >Home</a
+          >
+          <a
+            href="#products"
+            class="text-gray-300 hover:text-white transition duration-300 ease-in-out py-2 px-3 rounded-lg hover:bg-gray-800"
+            >Products</a
+          >
+          <a
+            href="#services"
+            class="text-gray-300 hover:text-white transition duration-300 ease-in-out py-2 px-3 rounded-lg hover:bg-gray-800"
+            >Services</a
+          >
+          <a
+            href="#contact"
+            class="text-gray-300 hover:text-white transition duration-300 ease-in-out py-2 px-3 rounded-lg hover:bg-gray-800"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section
+    <div class="bg-blue-700 text-white py-20 px-6">
+      <div class="container mx-auto text-center">
+        <h1 class="text-4xl font-bold mb-4">
+          Quality Construction Materials for Your Project
+        </h1>
+        <p class="text-lg">
+          Browse our selection of aggregates, concrete products, steel, lumber,
+          and more.
+        </p>
+        <a
+          href="#"
+          class="mt-6 inline-block bg-white text-blue-700 hover:bg-blue-200 hover:text-blue-900 font-semibold py-3 px-6 rounded"
+          >Explore Products</a
+        >
+      </div>
+    </div> -->
+
+    <!-- Hero Section -->
+    <section class="hero bg-cover bg-center relative py-32">
+      <!-- Overlay -->
+      <div class="overlay absolute inset-0 bg-black opacity-50"></div>
+      <!-- Content -->
+      <div class="container mx-auto text-center relative z-10">
+        <h1 class="text-5xl font-bold text-white mb-4">
+          Welcome to MR. Builder - Construction Material Supply
+        </h1>
+        <p class="text-lg text-white mb-8">
+          Your one-stop destination for high-quality construction materials
+        </p>
+        <a
+          href="#products"
+          class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-6 rounded-full transition duration-300"
+          >Explore Our Products</a
+        >
+      </div>
+    </section>
+
+    <!-- Product Grid -->
+    <div class="container mx-auto my-12" id="products">
+      <h2 class="text-2xl font-bold mb-6">Featured Products</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Product Card -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="sand.jpg" alt="Product" class="w-full h-48 object-cover" />
+          <div class="p-4 text-center">
+            <h3 class="font-semibold text-lg mb-2">Sand</h3>
+            <p class="text-gray-700">
+              "Like grains of sand, our service delivers the foundation for your
+              projects to rise and thrive."
+            </p>
+            <div class="mt-4 text-center">
+              <a
+                href="tel:+1234567890"
+                class="inline-block bg-blue-500 text-white px-3 py-1 rounded-lg hover:bg-blue-600 ml-4"
+                >Call Us</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="tmt.jpg" alt="Product" class="w-full h-48 object-cover" />
+          <div class="p-4 text-center">
+            <h3 class="font-semibold text-lg mb-2">TMT Bar</h3>
+            <p class="text-gray-700">
+              "Strength you can trust, integrity you can build on. Our TMT bar
+              supply fortifies your structures, ensuring resilience and
+              stability for generations to come."
+            </p>
+            <div class="mt-4 text-center">
+              <a
+                href="tel:+1234567890"
+                class="inline-block bg-blue-500 text-white px-3 py-1 rounded-lg hover:bg-blue-600 ml-4"
+                >Call Us</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="brick.jpg" alt="Product" class="w-full h-48 object-cover" />
+          <div class="p-4 text-center">
+            <h3 class="font-semibold text-lg mb-2">Brick</h3>
+            <p class="text-gray-700">
+              "Brick by brick, we lay the foundation of your vision. Our supply
+              ensures strength, durability, and the timeless beauty of your
+              construction."
+            </p>
+            <div class="mt-4 text-center">
+              <a
+                href="tel:+1234567890"
+                class="inline-block bg-blue-500 text-white px-3 py-1 rounded-lg hover:bg-blue-600 ml-4"
+                >Call Us</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Product Card -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img
+            src="cement.png"
+            alt="Product"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4 text-center">
+            <h3 class="font-semibold text-lg mb-2">Cement</h3>
+            <p class="text-gray-700">
+              "From foundation to skyline, our cement supply builds dreams into
+              reality." "Strength in every mix, our cement supply lays the
+              groundwork for success."
+            </p>
+            <div class="mt-4 text-center">
+              <a
+                href="tel:+1234567890"
+                class="inline-block bg-blue-500 text-white px-3 py-1 rounded-lg hover:bg-blue-600 ml-4"
+                >Call Us</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Product Card -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img
+            src="stone.webp"
+            alt="Product"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4 text-center">
+            <h3 class="font-semibold text-lg mb-2">Stone Chips</h3>
+            <p class="text-gray-700">
+              "Building dreams, one stone at a time. Our supply is the bedrock
+              of your construction aspirations."
+            </p>
+            <div class="mt-4 text-center">
+              <a
+                href="tel:+1234567890"
+                class="inline-block bg-blue-500 text-white px-3 py-1 rounded-lg hover:bg-blue-600 ml-4"
+                >Call Us</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Product Card -->
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <img src="tiles.jpg" alt="Product" class="w-full h-48 object-cover" />
+          <div class="p-4 text-center">
+            <h3 class="font-semibold text-lg mb-2">Tiles</h3>
+            <p class="text-gray-700">
+              "Elevate your space with our diverse tile supply, where style
+              meets durability to craft the perfect foundation for your
+              designs."
+            </p>
+            <div class="mt-4 text-center">
+              <a
+                href="tel:+1234567890"
+                class="inline-block bg-blue-500 text-white px-3 py-1 rounded-lg hover:bg-blue-600 ml-4"
+                >Call Us</a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Add more product cards here -->
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <div class="bg-gray-100 py-20" id="services">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">Our Services</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Service Card 1: Material Sourcing -->
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden p-6">
+            <i class="fas fa-hammer text-blue-500 text-4xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-4">Material Sourcing</h3>
+            <p class="text-gray-700">
+              We meticulously source high-quality construction materials from
+              trusted suppliers to ensure the success of your project.
+            </p>
+          </div>
+          <!-- Service Card 2: Construction Consultation -->
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden p-6">
+            <i class="fas fa-hard-hat text-blue-500 text-4xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-4">
+              Construction Consultation
+            </h3>
+            <p class="text-gray-700">
+              Our experienced team provides expert construction consultation
+              services to help you plan and execute your project efficiently.
+            </p>
+          </div>
+          <!-- Service Card 3: Project Management -->
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden p-6">
+            <i class="fas fa-project-diagram text-blue-500 text-4xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-4">Project Management</h3>
+            <p class="text-gray-700">
+              We offer comprehensive project management services to ensure
+              timely completion and successful delivery of your construction
+              project.
+            </p>
+          </div>
+          <!-- Add more service cards here -->
+        </div>
+      </div>
+    </div>
+    <!-- Testimonials Section -->
+    <div class="bg-blue-700 text-white py-20">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">What Our Customers Say</h2>
+        <div class="owl-carousel owl-theme">
+          <!-- Testimonial 1 -->
+          <div class="item bg-white rounded-lg overflow-hidden shadow-md p-8">
+            <img
+              src="1.jpg"
+              alt="Customer Image"
+              class="rounded-full mx-auto mb-4"
+            />
+            <div class="text-4xl mb-4">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <p class="text-lg mb-6 text-gray-500">
+              "এই সাইট থেকে সিমেন্ট কিনেছি, যেটা খুব ভালো কাজ করছে। প্রোডাক্ট
+              মানের দিক থেকে আমি সন্তুষ্ট।"
+            </p>
+            <p class="text-gray-500">- Rakesh Mondal</p>
+            <p class="text-gray-500">Golden Construction</p>
+          </div>
+          <!-- Testimonial 2 -->
+          <div class="item bg-white rounded-lg overflow-hidden shadow-md p-8">
+            <img
+              src="2.jpg"
+              alt="Customer Image"
+              class="rounded-full mx-auto mb-4"
+            />
+            <div class="text-4xl mb-4">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <p class="text-lg mb-6 text-gray-500">
+              "টাইল কিনেছি এখান থেকে, যেটা আমার বাসার সুন্দর করেছে। দামও সহজে
+              পাইতে পারলাম।"
+            </p>
+            <p class="text-gray-500">- Tupai Nayek</p>
+            <p class="text-gray-500">Civil Engineer</p>
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="item bg-white rounded-lg overflow-hidden shadow-md p-8">
+            <img
+              src="3.jpg"
+              alt="Customer Image"
+              class="rounded-full mx-auto mb-4"
+            />
+            <div class="text-4xl mb-4">
+              <i class="fas fa-quote-left"></i>
+            </div>
+            <p class="text-lg mb-6 text-gray-500">
+              "আমি এখান থেকে অনেক বার মেটারিয়াল কিনেছি, সবসময় সঠিক পণ্য
+              পেয়েছি এবং সেবার সাথে সন্তুষ্ট।"
+            </p>
+            <p class="text-gray-500">- Bappa Pakrey</p>
+            <p class="text-gray-500">General Contractor</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact Section -->
+    <div class="bg-gray-800 text-white py-20" id="contact">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">Contact Us</h2>
+        <p class="text-lg mb-8">
+          Have a question or need assistance? Get in touch with our team.
+        </p>
+        <form class="max-w-lg mx-auto">
+          <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+              <label
+                class="block uppercase tracking-wide text-gray-300 text-xs font-bold mb-2"
+                for="grid-first-name"
+              >
+                First Name
+              </label>
+              <input
+                class="appearance-none block w-full bg-gray-700 text-gray-100 border border-gray-300 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                id="grid-first-name"
+                type="text"
+                placeholder="John"
+              />
+            </div>
+            <div class="w-full md:w-1/2 px-3">
+              <label
+                class="block uppercase tracking-wide text-gray-300 text-xs font-bold mb-2"
+                for="grid-last-name"
+              >
+                Last Name
+              </label>
+              <input
+                class="appearance-none block w-full bg-gray-700 text-gray-100 border border-gray-300 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                id="grid-last-name"
+                type="text"
+                placeholder="Doe"
+              />
+            </div>
+          </div>
+          <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full px-3">
+              <label
+                class="block uppercase tracking-wide text-gray-300 text-xs font-bold mb-2"
+                for="grid-email"
+              >
+                Email
+              </label>
+              <input
+                class="appearance-none block w-full bg-gray-700 text-gray-100 border border-gray-300 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                id="grid-email"
+                type="email"
+                placeholder="example@example.com"
+              />
+            </div>
+          </div>
+          <div class="flex flex-wrap -mx-3 mb-6">
+            <div class="w-full px-3">
+              <label
+                class="block uppercase tracking-wide text-gray-300 text-xs font-bold mb-2"
+                for="grid-message"
+              >
+                Message
+              </label>
+              <textarea
+                class="appearance-none block w-full bg-gray-700 text-gray-100 border border-gray-300 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+                id="grid-message"
+                placeholder="Your message..."
+              ></textarea>
+            </div>
+          </div>
+          <button
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded focus:outline-none focus:shadow-outline"
+            type="button"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- About Us Section -->
+    <section
+      id="about"
+      class="py-20 bg-gradient-to-r from-blue-900 to-purple-900 text-white"
+    >
+      <div class="container mx-auto flex flex-col items-center justify-center">
+        <h2 class="text-4xl font-bold mb-8">About Us</h2>
+        <p class="text-lg leading-relaxed max-w-3xl text-center">
+          At Construction Material Supply, we are passionate about delivering
+          top-notch construction materials and services to our clients. With our
+          dedicated team and unwavering commitment to excellence, we aim to
+          redefine the standards of the industry and exceed the expectations of
+          our customers.
+        </p>
+        <div class="mt-12">
+          <img
+            src="https://via.placeholder.com/400"
+            alt="About Us Image"
+            class="rounded-lg shadow-lg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="bg-gradient-to-r from-blue-700 to-purple-700 text-white py-12"
+    >
+      <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+        <!-- Logo -->
+        <div
+          class="col-span-1 md:col-span-1 flex items-center justify-center md:justify-start"
+        >
+          <h2 class="text-3xl font-bold">Mr. Builder</h2>
+        </div>
+        <!-- Navigation Links -->
+        <div
+          class="col-span-1 md:col-span-1 flex flex-col items-center md:items-start"
+        >
+          <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+          <nav>
+            <ul>
+              <li>
+                <a href="#" class="hover:text-gray-300 transition duration-300"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-gray-300 transition duration-300"
+                  >Products</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-gray-300 transition duration-300"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-gray-300 transition duration-300"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- Social Media Icons -->
+        <div
+          class="col-span-1 md:col-span-1 flex items-center justify-center md:justify-end"
+        >
+          <h3 class="text-lg font-semibold mr-6">Follow Us</h3>
+          <div class="flex space-x-6">
+            <a
+              href="#"
+              class="text-white hover:text-gray-300 transition duration-300"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="#"
+              class="text-white hover:text-gray-300 transition duration-300"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="#"
+              class="text-white hover:text-gray-300 transition duration-300"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 20,
+          nav: false,
+          dots: true,
+          autoplay: true,
+          autoplayTimeout: 3000,
+          autoplayHoverPause: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            768: {
+              items: 2,
+            },
+            1024: {
+              items: 3,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
